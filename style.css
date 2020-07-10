@@ -1,0 +1,48 @@
+
+/*change font and color*/
+body{
+  font-family: Cambria;
+  color: #0D1F57;
+}
+
+.jumbotron{
+  background-color: #AD6B7C;
+  color: white;
+  margin-bottom: 0px;
+  padding: 2rem 1rem;
+  letter-spacing: -0.03em;
+  font-family: 'basis_grotesque_probold';
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+nav{
+  position: relative;
+  justify-content: flex-end; /*moved nav bar to the right*/
+  background-color: #809AF0;
+}
+
+.nav-item{
+  color: white;
+  font-size: 150%;
+}
+
+
+h1{
+  font-size: 300%;
+  font-weight: bold;
+}
+
+/*Try put the image behind the h1 instead of the background so that the nav bar sits on the image and my head is just below it */
+.fullScreen{
+  height: 100%;
+  width: 100%;
+}
+
+.imgGrid{
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 3;
+  width:80%;
+  margin: auto;
+}
