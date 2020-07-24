@@ -43,6 +43,10 @@ h1{
   display: flex;
   flex-wrap: wrap;
   flex-shrink: 3;
-  width:80%;
+  width:100%;
   margin: auto;
+}
+
+.projectImg {
+  width:400px;
 }
